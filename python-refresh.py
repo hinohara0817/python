@@ -22,3 +22,12 @@ def hello(thestring):
 
 sentence = hello('taro')
 print(sentence)
+
+foodname = ["chocolate", "cake", "bisket", 21]
+print(foodname)
+foodname.insert(0, "donats")
+print(foodname)
+print(foodname[2])
+del(foodname[2])
+print(foodname)
+print(len(foodname))

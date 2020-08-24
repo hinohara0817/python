@@ -31,3 +31,33 @@ print(foodname[2])
 del(foodname[2])
 print(foodname)
 print(len(foodname))
+
+for food in foodname:
+  print(food)
+
+for number in range(1,10):
+  print(number)
+
+age2 = 0
+while age2 < 10:
+  print(age2)
+  age2 += 1
+
+dogs = {"poti":5, "shiro":8, "inu":1}
+dogs["sarah"] = 6
+
+print(dogs)
+print(dogs["poti"])
+
+class Dog:
+  def __init__(self, name, age, color):
+    self.name = name 
+    self.age = age
+    self.color = color
+
+  def bark(self):
+    print("wan,wan")
+
+mydog = Dog("taro", 15, "white")
+mydog.bark()
+print(mydog.age)
